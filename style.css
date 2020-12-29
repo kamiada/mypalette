@@ -4,39 +4,41 @@ body {
   background-color: #faf0e6;
 }
 
-.header_container {
-  position: relative;
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
 }
 
 header {
   width: 100%;
-  position: fixed;
-  top: 0;
-  right: 0;
+  display: block;
   background-color: #F3D1DC;
+  position: sticky;
   text-align: center;
   color: #D2A3A9;
   font-family: "Redressed", cursive;
   font-size: 40px;
-  margin-bottom: 10px;
-  margin-left: 0;
-  margin-right: 0;
+  margin: 0, 0, 10px, 0;
+}
+header h1 {
+  margin: 0, 0, 0, 0;
+  display: inherit;
 }
 
 .holders {
-  margin-top: 0.83em;
+  justify-content: space-around;
+  margin: auto;
+  background: tomato;
+  line-height: 150px;
+  padding: 5px;
+  width: 200px;
+  height: 200px;
+  margin-top: 10px;
+  line-height: 150px;
   font-family: "Dancing Script", cursive;
   color: black;
-  font-size: 25px;
-  height: 200px;
-  width: 200px;
-  position: relative;
+  font-size: 3em;
   text-align: center;
-  border: black 1px solid;
-}
-.holders span {
-  margin-left: auto;
-  margin-right: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
