@@ -146,4 +146,3 @@ function GenerateHolders(){
     holderElement.append(hexText);
     holderElement.style.backgroundColor = holder.colour;
 })};
-
