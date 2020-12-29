@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Redressed&display=swap");
+body {
+  background-color: #faf0e6;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #F3D1DC;
+  text-align: center;
+  color: #D2A3A9;
+  font-family: "Redressed", cursive;
+  font-size: 40px;
+}
+
+.holders {
+  font-family: "Dancing Script", cursive;
+}
+
+/*# sourceMappingURL=style.css.map */
