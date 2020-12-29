@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Redressed&display=swap");
 body {
   background-color: #faf0e6;
+  margin: 0;
 }
 
 .wrapper {
@@ -36,11 +37,15 @@ header h1 {
   height: 200px;
   margin-top: 10px;
   line-height: 150px;
+  border: black 1px solid;
+  text-align: center;
+}
+.holders span {
+  padding: 10px;
+  margin: auto;
   font-family: "Dancing Script", cursive;
   color: black;
-  font-size: 3em;
-  text-align: center;
-  border: black 1px solid;
+  font-size: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
